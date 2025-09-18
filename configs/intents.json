@@ -1,0 +1,97 @@
+{
+    "introduceSelf": [
+        "Hello, my name is 'name' and I will be your nurse today.",
+        "I'm 'name' and I'll be your nurse today.",
+        "Hey, I'll be helping you today. My name is 'name'.",
+        "I'm going to be your nurse today.",
+        "I'm your nurse today.",
+        "Hello, I'm your nurse.",
+        "Hello, I'll be your nurse.",
+        "I'm here to assist you as your nurse.",
+        "I'm your nurse for today.",
+        "I will care for you today.",
+        "I'm your caregiver today.",
+        "I'm your assigned nurse."
+    ],
+    "identifyPatient": [
+        "What is your name and date of birth?",
+        "Can you tell me your full name and date of birth?",
+        "can you please state your name and date of birth?",
+        "Can you please state your full name and date of birth?",
+        "Would you be able to share your full name and birthdate?",
+        "Can you tell me your full name and birthdate, please?",
+        "Can you please identify yourself?",
+        "Please identify yourself.",
+        "Could you confirm your name and date of birth for me?",
+        "Could we confirm your name and date of birth?",
+        "Could we verify your name and date of birth?",
+        "Can you tell me your first and last name and your birthday?",
+        "I will need to confirm your name, last name and your birthday.",
+        "Can I have your name and date of birth?",
+        "I'll need to double check your name, last name and date of birth."
+    ],
+    "askQuestion924": [
+        "Do you have any allergies?",
+        "Have you ever experienced an allergic reaction?",
+        "Are you allergic to any medications, foods, or substances?"
+    ],
+    "askQuestion919": [
+        "are you feeling dizzy?",
+        "are you feeling lightheaded?",
+        "are you experiencing any dizziness?",
+        "Do you experience dizziness?",
+        "Are you lightheaded?",
+        "Do you feel unsteady?"
+    ],
+    "askQuestion103": [
+        "Do you have any pain?",
+        "Do you have any discomfort?",
+        "Do you have any pain or discomfort?",
+        "Do you have any pain?",
+        "Are you experiencing any pain?",
+        "Do you feel any discomfort?",
+        "Can you tell me if you're in pain?",
+        "Is there any part of your body that hurts?",
+        "Are you in any pain right now?",
+        "Are you feeling any pain?",
+        "Are you having any pain?",
+        "Are you having any pain today?"
+    ],
+    "askQuestion605": [
+        "How would you rate your pain on a scale of 0 to 10?",
+        "Can you rate your pain on a scale from 0 to 10?",
+        "On a scale of 0 to 10, how intense is your pain?",
+        "Can you assess the discomfort on a scale of 0 to 10?",
+        "What rating would you give the distress on a scale from 0 to 10?",
+        "On a scale of zero to 10, what would you say your pain is?",
+        "How much pain are you in on a scale of one to 10?",
+        "On a scale from 0 to 10, how would you rate your pain?",
+        "How bad is the pain from 0 to 10?"
+    ],
+    "askQuestion3": [
+        "Can you tell me where you are?",
+        "Can you tell me your location?",
+        "Can you tell me your whereabouts?",
+        "Can you tell me where you are?",
+        "Can you let me know your current location?",
+        "Where are you right now?",
+        "Where are you currently situated?",
+        "Where are you at the moment?",
+        "Do you know where you are right now?",
+        "Where are we today?"
+    ],
+    "educatePatientAboutAssessment": [
+        "So i have assessed you, now i will provide you with some education about the assessment steps",
+        "You blood pressure is 120/80, which is normal"
+    ],
+    "educatePatientAboutPlanOfCare": [
+        "This is the plan of care for you"
+    ],
+    "educatePatientAboutActivitiesSafetyAndFallRisk": [
+        "This is the activities, safety, and fall risk for you"
+    ],
+    "comfortAssessmentPatient": [
+        "Don't worry, i'm here to help you",
+        "I'm here to help you, if you need anything just let me know"
+    ]
+}

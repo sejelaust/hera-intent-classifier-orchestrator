@@ -4,7 +4,7 @@ Create an "orchestrator" API that when called is starting x number of llm based 
 ## overview
 The input of the API can be found below. It is important, that the input format is followed, if not it should return an error. First component before triggering the classifiers should be a filter, that filters intents based on the golden path.
 
-When the API is called it should trigger the four LLM based classifiers in parallel. Each of the classifiers should be it's own component in folders. In there should be a file where all the four classifiers are triggered, giving an overview over which classifiers are being used. Please use langchain to create classifiers together with Pydanic AI to control the formats and then langsmith for tracing. 
+When the API is called it should trigger the four LLM based classifiers in parallel. Each of the classifiers should be it's own component in folders. In there should be a file where all the four classifiers are triggered, giving an overview over which classifiers are being used. It should be modular, so adding or removing classifiers should be easy. Please use langchain to create classifiers together with Pydanic AI to control the formats and then langsmith for tracing. 
 
 See flow below. 
 
@@ -20,14 +20,19 @@ flowchart TD;
     D --> H[Main split intent matcher]
     E --> H
 
-    H -->I[results combiner]
+    H -->I[Result Aggregator]
     F -->I
     G -->I  
     I -->J[API Output]
 ```
 
 
-## Classifiers 
+## Components
+There are multiple types of components: golden path filter, classifiers, main split intent matcher and ResultAggregator (AKA the "Combiner"). Below is a detailed description of each component
+
+### Golden path filter
+Right after the API has received the correctly formatted Input, it is parsed through the Golden path filter. The fil
+
 
 ##
 ## API
@@ -53,8 +58,8 @@ API input:
 
         },
 
-    “golden_path”
-
+    “golden_path”: ["identifyPatient", "askQuestion924", "askQuestion100","askQuestion103", "
+    "askQuesti"],
 }
 
 Output:

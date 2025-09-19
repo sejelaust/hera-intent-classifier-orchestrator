@@ -1,144 +1,144 @@
 {
-    "ID_ALLERGIES: Do you have any allergies? If so, what kind of reaction did you have?": {
-        "1": [
+    "askQuestion924": {
+        "askQuestion924_sub-intent_1": [
             "Do you have any allergies?",
             "Have you ever experienced an allergic reaction?",
             "Are you allergic to any medications, foods, or substances?"
         ],
-        "2": [
+        "askQuestion924_sub-intent_2": [
             "If yes, what kind of reaction did you have?",
             "Can you describe the allergic reaction you experienced?",
             "What symptoms did you notice when the reaction occurred?",
             "What happens when you're exposed to that allergen?"
         ]
     },
-    "ID_NAME_DOB: Please state your name and date of birth.": {
-        "1": [
+    "identifyPatient": {
+        "identifyPatient_sub-intent_1": [
             "Please tell me your full name.",
             "May I have your name?",
             "What is your name?"
         ],
-        "2": [
+        "identifyPatient_sub-intent_2": [
             "What is your date of birth?",
             "When were you born?",
             "Can you provide your birth date?"
         ]
     },
-    "ID_COLOS_PAIN: Have there been any pain, swelling or miscolorization around the colostomy pouch?": {
-        "1": [
+    "ID_COLOS_PAIN": {
+        "ID_COLOS_PAIN_sub-intent_1": [
             "Have you had any pain around the colostomy pouch?",
             "Is there any discomfort or tenderness near the pouch?",
             "Do you feel any pain at the stoma site?"
         ],
-        "2": [
+        "ID_COLOS_PAIN_sub-intent_2": [
             "Have you noticed any swelling or discoloration around the pouch?",
             "Has the skin around the stoma become swollen or changed color?",
             "Any redness, swelling, or unusual color at the colostomy site?"
         ]
     },
-    "ID_WOUND_SMELL: Have there been any smell, secretions, or discharge from the wound?": {
-        "1": [
+    "ID_WOUND_SMELL": {
+        "ID_WOUND_SMELL_sub-intent_1": [
             "Have you noticed any odor coming from the wound?",
             "Is there a smell at the wound site?",
             "Does the wound have an unusual odor?"
         ],
-        "2": [
+        "ID_WOUND_SMELL_sub-intent_2": [
             "Have you seen any secretions or discharge?",
             "Is there any fluid leaking from the wound?",
             "Are you noticing any drainage or pus coming from the wound?"
         ]
     },
-    "ID_URINE_VOLUME: Have the urine volume and color been normal?": {
-        "1": [
+    "ID_URINE_VOLUME": {
+        "ID_URINE_VOLUME_sub-intent_1": [
             "Has your urine output been normal?",
             "Are you passing your usual amount of urine?",
             "Is your urine volume about the same as always?"
         ],
-        "2": [
+        "ID_URINE_VOLUME_sub-intent_2": [
             "Has the color of your urine been normal?",
             "Does your urine look its usual color (light yellow)?",
             "Any change in how dark or light your urine appears?"
         ]
     },
-    "ID_WOUND_PAIN: Have you had any pain or itching from the wound?": {
-        "1": [
+    "ID_WOUND_PAIN": {
+        "ID_WOUND_PAIN_sub-intent_1": [
             "Have you experienced any pain at the wound site?",
             "Is the wound causing you any pain?",
             "Do you feel any soreness around the wound?"
         ],
-        "2": [
+        "ID_WOUND_PAIN_sub-intent_2": [
             "Have you had any itching around the wound?",
             "Is the wound area itchy?",
             "Are you experiencing any itchiness at the site?"
         ]
     },
-    "ID_DEHYDRATION: Have you had any signs of dehydration such as leg cramps, palpitations, weakness, fatigue, or dizziness?": {
-        "1": [
+    "ID_DEHYDRATION": {
+        "ID_DEHYDRATION_sub-intent_1": [
             "Have you experienced any signs of dehydration?",
             "Do you feel like you might be dehydrated?",
             "Have you noticed symptoms that could mean dehydration?"
         ],
-        "2": [
+        "ID_DEHYDRATION_sub-intent_2": [
             "Which of these have you noticed: leg cramps, palpitations, weakness, fatigue, or dizziness?",
             "If so, did you have leg cramps, heart palpitations, weakness, fatigue, or dizziness?",
             "Can you specify if you've had any cramps, palpitations, weakness, fatigue, or lightheadedness?"
         ]
     },
-    "ID_UTI: Have you had any signs of urinary tract infection like fever, urge or pain?": {
-        "1": [
+    "ID_UTI": {
+        "ID_UTI_sub-intent_1": [
             "Have you shown any signs of a urinary tract infection?",
             "Have you experienced any UTI symptoms?",
             "Do you think you might have a UTI?"
         ],
-        "2": [
+        "ID_UTI_sub-intent_2": [
             "If so, have you had fever, an urgent need to urinate, or pain when urinating?",
             "Which symptoms—fever, urinary urgency, or pain—have you noticed?",
             "Have you felt burning or pain when you urinate, or had a fever?"
         ]
     },
     "ID_EAT_DRINK: Have you had anything to eat or drink today?": {
-        "1": [
+        "ID_EAT_DRINK_sub-intent_1": [
             "Have you eaten anything today?",
             "What have you eaten so far today?",
             "Did you have any meals or snacks today?"
         ],
-        "2": [
+        "ID_EAT_DRINK_sub-intent_2": [
             "Have you had anything to drink today?",
             "What fluids have you consumed today?",
             "Did you drink any water or beverages today?"
         ]
     },
-    "ID_BOWEL_MOVEMENTS: How many bowel movements do you have every day and what is the consistency?": {
-        "1": [
+    "ID_BOWEL_MOVEMENTS": {
+        "ID_BOWEL_MOVEMENTS_sub-intent_1": [
             "How many times do you have a bowel movement each day?",
             "What is the frequency of your bowel movements?",
             "How often are you having bowel motions?"
         ],
-        "2": [
+        "ID_BOWEL_MOVEMENTS_sub-intent_2": [
             "What is the consistency of your stool?",
             "Is your stool formed, loose, or watery?",
             "How would you describe your stool consistency?"
         ]
     },
-    "ID_COUGH: How would you describe your coughing? Is it dry, wet, or productive?": {
-        "1": [
+    "ID_COUGH": {
+        "ID_COUGH_sub-intent_1": [
             "How would you describe your cough?",
             "Can you tell me about your cough?",
             "What does your cough feel like?"
         ],
-        "2": [
+        "ID_COUGH_sub-intent_2": [
             "Is it dry, wet, or are you producing phlegm?",
             "Would you call your cough dry or productive?",
             "Are you coughing up mucus, or is it a dry cough?"
         ]
     },
-    "ID_SMOKER: Are you a smoker? How many packs a day if so?": {
-        "1": [
+    "ID_SMOKER": {
+        "ID_SMOKER_sub-intent_1": [
             "Are you a smoker?",
             "Do you smoke cigarettes?",
             "Have you ever smoked tobacco?"
         ],
-        "2": [
+        "ID_SMOKER_sub-intent_2": [
             "If yes, how many packs per day do you smoke?",
             "How many cigarettes do you smoke each day?",
             "What is your daily tobacco use?"

@@ -1,0 +1,126 @@
+{
+    "introduceSelf": [
+        "Hi.",
+        "Hello.",
+        "Nice to meet you.",
+        "Thank you.",
+        "Okay.",
+        "Hi, thanks.",
+        "Good to meet you.",
+        "Thanks for letting me know.",
+        "Alright.",
+        "Sounds good."
+    ],
+    "identifyPatient": [
+        "My name is John Doe, date of birth January 1, 1980.",
+        "John Doe, 01/01/1980.",
+        "I'm John Doe, born January first, nineteen eighty.",
+        "John Doe, my birthday is January 1st, 1980.",
+        "John, last name Doe, DOB 01-01-1980.",
+        "It's Jane Smith, 12/05/1975.",
+        "Jane Marie Smith, December 5th, 1975.",
+        "I'm Alex Brown, 07/23/1990.",
+        "Alex Brown, July twenty-third, nineteen ninety.",
+        "My full name is Maria Garcia and my birthday is 03/14/1985."
+    ],
+    "askQuestion924": [
+        "I don't have any allergies.",
+        "I'm allergic to penicillin.",
+        "I'm allergic to peanuts.",
+        "I'm allergic to latex.",
+        "I have seasonal allergies.",
+        "I'm not aware of any allergies.",
+        "I get hives from shellfish.",
+        "I'm allergic to aspirin.",
+        "I'm lactose intolerant.",
+        "I'm allergic to bee stings."
+    ],
+    "askQuestion919": [
+        "Yes, I'm feeling dizzy.",
+        "I'm a bit lightheaded.",
+        "No, I'm not dizzy.",
+        "I feel unsteady when I stand.",
+        "It's worse when I get up.",
+        "I felt dizzy earlier, but it's better now.",
+        "I get lightheaded when I turn my head.",
+        "Only when I stand up quickly.",
+        "I feel like the room is spinning.",
+        "No dizziness at the moment."
+    ],
+    "askQuestion103": [
+        "Yes, I have some pain.",
+        "No, I don't have any pain.",
+        "My lower back hurts.",
+        "I have a headache.",
+        "It hurts when I move.",
+        "The pain comes and goes.",
+        "I feel a sharp pain in my chest.",
+        "It's more of a dull ache.",
+        "The pain is constant.",
+        "It only hurts when I breathe deeply."
+    ],
+    "askQuestion605": [
+        "It's a 6 out of 10.",
+        "About a 3.",
+        "Zero, no pain.",
+        "I'd say 8.",
+        "Maybe a 4 out of 10.",
+        "Around 2.",
+        "It's a 10, the worst.",
+        "Probably a 5.",
+        "One or two.",
+        "Seven out of ten."
+    ],
+    "askQuestion3": [
+        "I'm at the hospital.",
+        "I'm in the emergency room.",
+        "I'm on the medical floor.",
+        "I'm at the clinic.",
+        "I don't know.",
+        "I think I'm at home.",
+        "I'm at the doctor's office.",
+        "I'm in room 12.",
+        "I'm at the hospital, third floor.",
+        "I'm in the recovery area."
+    ],
+    "educatePatientAboutAssessment": [
+        "Okay, thank you for explaining.",
+        "That makes sense.",
+        "Got it.",
+        "Thanks for the update.",
+        "Alright, I understand.",
+        "Okay, thank you.",
+        "Thanks for letting me know.",
+        "I appreciate the explanation."
+    ],
+    "educatePatientAboutPlanOfCare": [
+        "Okay.",
+        "That sounds good.",
+        "What will happen next?",
+        "Thanks for letting me know.",
+        "I understand.",
+        "Alright.",
+        "Could you repeat that, please?",
+        "Thank you."
+    ],
+    "educatePatientAboutActivitiesSafetyAndFallRisk": [
+        "I understand.",
+        "I'll be careful.",
+        "Okay, I'll call for help if I need to get up.",
+        "Thanks for telling me.",
+        "I'll use the call button.",
+        "Got it, I won't get up alone.",
+        "Understood.",
+        "Thank you for the guidance."
+    ],
+    "comfortAssessmentPatient": [
+        "Thank you.",
+        "I appreciate it.",
+        "Okay.",
+        "That helps.",
+        "Thanks for being here.",
+        "I'm feeling a bit better.",
+        "I'm still worried, but thank you.",
+        "Alright, thanks."
+    ]
+}

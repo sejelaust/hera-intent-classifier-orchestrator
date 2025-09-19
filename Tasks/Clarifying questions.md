@@ -28,13 +28,40 @@ Clarifying questions
 ##Split-intent matcher
 
  - Confirm the rule: We add a main split intent to “newly matched” only if all its sub-intents are present in the union of newly classified sub-intents and prev_classified_sub_intents, and at least one sub-intent was newly matched in this run. Correct? Answer: correct. 
- - Should the API return an updated prev_classified_sub_intents for the client to persist, or do we persist server-side? It should return an updated version called "classified_sub_intents" 
+ - Should the API return an updated prev_classified_sub_intents for the client to persist, or do we persist server-side? Answer: It should return an updated version called "classified_sub_intents" 
 
 ##Aggregation and output schema
 
-Please define the exact shape for split_intents_recognized. Proposed: an object keyed by main intent ID with { sub_intents: [...], newly_completed_main: boolean, reason?: string }. Is this acceptable?
-For all_intents_recognized, should it include: multi-intents recognized, individual intents from intents.json, newly completed main split intents (as main IDs), response intents, and patient-education intents? Or a deduplicated union with category labels?
-Should we include confidence scores per classifier/category?
+ - Please define the exact shape for split_intents_recognized. Proposed: an object keyed by main intent ID with { sub_intents: [...], newly_completed_main: boolean, reason?: string }. Is this acceptable? Answer: {
+    “intents_classified”: <list of all new intent IDs recognized>,
+    "classified_sub_intents": # Used for client to send back in “prev_classified_sub_intents”
+        {
+            “<main intent ID with matched sub intents>“: <list of sub intent IDs previously matched>,
+            “<main intent ID 2 with matched sub intents>“: <list of sub intent IDs previously matched>
+        },
+    "classification_details": {
+        “split_intents_classified”: 
+            {
+                “sub_intents”: "<list of classified sub-intents>
+                “reason”: "<classifier reason>"
+            }
+
+        “multi_intents”: {
+            "intents": "<list of matched intent IDs>",
+            "reasion": "<classifer reason>"
+        },
+        “single_intent”:  {
+            "intents": "<list of matched intent IDs>",
+            "reasion": "<classifer reason>"
+        },
+        “response_intents”:  {
+            "intents": "<list of matched intent IDs>",
+            "reasion": "<classifer reason>"
+        }
+    }
+}
+ - For all_intents_recognized, should it include: multi-intents recognized, individual intents from intents.json, newly completed main split intents (as main IDs), response intents, and patient-education intents? Or a deduplicated union with category labels? Answer: remove duplicates.
+ - Should we include confidence scores per classifier/category? Answer: No
 
 
 ##LLM integration choices
